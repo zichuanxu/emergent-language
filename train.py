@@ -66,11 +66,13 @@ def main():
         optimizer.zero_grad()
 
         total_loss, _ = agent(game)
-        per_agent_loss = total_loss.data[0] / num_agents / game_config.batch_size
+        # Use .item() to extract the scalar value
+        per_agent_loss = total_loss.item() / num_agents / game_config.batch_size
         losses[num_agents][num_landmarks].append(per_agent_loss)
 
         dist = game.get_avg_agent_to_goal_distance()
-        avg_dist = dist.data[0] / num_agents / game_config.batch_size
+        # Use .item() here as well
+        avg_dist = dist.item() / num_agents / game_config.batch_size
         dists[num_agents][num_landmarks].append(avg_dist)
 
         print_losses(epoch, losses, dists, game_config)
