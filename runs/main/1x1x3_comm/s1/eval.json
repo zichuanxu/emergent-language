@@ -225,6 +225,7 @@
     "recall_directed": 0.15586558655865587,
     "prior": 0.3333,
     "lift": 0.6207863177226813,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.00924166664481163,
     "stream_share": 0.05445000156760216,
     "mean_first_step": 0.44260790944099426
@@ -236,6 +237,7 @@
     "recall_directed": 0.21951219512195122,
     "prior": 0.33005,
     "lift": 0.6226127218934912,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.013083333149552345,
     "stream_share": 0.07604999840259552,
     "mean_first_step": 0.8040762543678284
@@ -247,6 +249,7 @@
     "recall_directed": 0.09750975097509751,
     "prior": 0.3333,
     "lift": 0.2753142322097379,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.009341666474938393,
     "stream_share": 0.05339999869465828,
     "mean_first_step": 0.466292142868042
@@ -258,6 +261,7 @@
     "recall_directed": 0.27510983184366006,
     "prior": 0.33005,
     "lift": 0.593652950152594,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.017149999737739563,
     "stream_share": 0.09830000251531601,
     "mean_first_step": 0.8591047525405884
@@ -269,6 +273,7 @@
     "recall_directed": 0.14391758824420542,
     "prior": 0.33005,
     "lift": 0.5747119047619047,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.008975000120699406,
     "stream_share": 0.05249999836087227,
     "mean_first_step": 1.2133333683013916
@@ -280,6 +285,7 @@
     "recall_directed": 0.1425142514251425,
     "prior": 0.3333,
     "lift": 0.5225558558558558,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.009508333168923855,
     "stream_share": 0.05550000071525574,
     "mean_first_step": 0.9747747778892517
@@ -291,6 +297,7 @@
     "recall_directed": 0.15961596159615962,
     "prior": 0.3333,
     "lift": 0.32308494756323264,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.013766666874289513,
     "stream_share": 0.08105000108480453,
     "mean_first_step": 0.3306600749492645

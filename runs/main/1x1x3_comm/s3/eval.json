@@ -226,6 +226,7 @@
     "recall_directed": 0.15226522652265226,
     "prior": 0.3333,
     "lift": 0.4859090395480226,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.010625000111758709,
     "stream_share": 0.06194999814033508,
     "mean_first_step": 1.1694915294647217
@@ -237,6 +238,7 @@
     "recall_directed": 0.2795031055900621,
     "prior": 0.33005,
     "lift": 0.531696847267632,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.019041666761040688,
     "stream_share": 0.10705000162124634,
     "mean_first_step": 1.1849602460861206
@@ -248,6 +250,7 @@
     "recall_directed": 0.2387517042872292,
     "prior": 0.33005,
     "lift": 0.6320989621489621,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.01484166644513607,
     "stream_share": 0.08190000057220459,
     "mean_first_step": 0.8406593203544617
@@ -259,6 +262,7 @@
     "recall_directed": 0.09975997599759975,
     "prior": 0.3333,
     "lift": 0.615344793152639,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.005908333230763674,
     "stream_share": 0.03505000099539757,
     "mean_first_step": 0.8288159966468811
@@ -270,6 +274,7 @@
     "recall_directed": 0.0921092109210921,
     "prior": 0.3333,
     "lift": 0.44886560509554146,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.006741666700690985,
     "stream_share": 0.039250001311302185,
     "mean_first_step": 1.53121018409729
@@ -281,6 +286,7 @@
     "recall_directed": 0.15751575157515751,
     "prior": 0.3333,
     "lift": 0.6526154929577466,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.008916666731238365,
     "stream_share": 0.05324999988079071,
     "mean_first_step": 0.2835680842399597
@@ -292,6 +298,7 @@
     "recall_directed": 0.20481745190122708,
     "prior": 0.33005,
     "lift": 0.5694842648037259,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.012983333319425583,
     "stream_share": 0.07514999806880951,
     "mean_first_step": 1.13772451877594
@@ -303,6 +310,7 @@
     "recall_directed": 0.1074107410741074,
     "prior": 0.3333,
     "lift": 0.23585739268680445,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.011108333244919777,
     "stream_share": 0.06289999932050705,
     "mean_first_step": 1.0771064758300781

@@ -222,6 +222,7 @@
     "recall_directed": 0.2198399516835271,
     "prior": 0.33115,
     "lift": 0.24525538400633412,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.02120833285152912,
     "stream_share": 0.12630000710487366,
     "mean_first_step": 0.011480601504445076
@@ -233,6 +234,7 @@
     "recall_directed": 0.9992540653438758,
     "prior": 0.33515,
     "lift": 0.5714553059014618,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.06156666576862335,
     "stream_share": 0.3693999946117401,
     "mean_first_step": 0.0008121277787722647
@@ -244,6 +246,7 @@
     "recall_directed": 0.10503446209169913,
     "prior": 0.3337,
     "lift": 0.3779751269035533,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.0085916668176651,
     "stream_share": 0.04924999922513962,
     "mean_first_step": 1.455837607383728
@@ -255,6 +258,7 @@
     "recall_directed": 0.1869243545221199,
     "prior": 0.33115,
     "lift": 0.22276498881431767,
+    "share_of_its_streams_about_own_goal": 0.0,
     "slot_share": 0.018699999898672104,
     "stream_share": 0.11174999922513962,
     "mean_first_step": 0.021476510912179947

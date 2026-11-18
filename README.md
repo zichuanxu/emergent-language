@@ -83,7 +83,7 @@ The repository contains each reported run's configuration, per-update metrics, e
 
 ### Trained models
 
-The trained and initial weights of all 57 reported seeds are attached to the [v1.0.0 release](https://github.com/zichuanxu/emergent-language/releases/tag/v1.0.0) (258 MB in two archives). Extracted at the repository root they land next to each run's results, which lets step 2 and the `analysis/` scripts run without training:
+The trained and initial weights of all 57 reported seeds are attached to the [v1.0.0 release](https://github.com/zichuanxu/emergent-language/releases/tag/v1.0.0) (271 MB in two archives). Extracted at the repository root they land next to each run's results, which lets step 2 and the `analysis/` scripts run without training:
 
 ```sh
 gh release download v1.0.0 --repo zichuanxu/emergent-language
