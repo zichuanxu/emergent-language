@@ -270,5 +270,5 @@ Known limits of the evidence:
 - The runs `abl_default_init` and `abl_penalty_from_start` were stopped near update 1,500 and resumed (to extend them from 5,000 to 7,000 updates). Their GPU noise stream restarted at the resume, and their `config.json` still states 5,000 updates; `metrics.npz` has all 7,000.
 - Action noise stays on at test time. Removing it changes the step-mean reward by 0.006–0.010 in development runs.
 - Statements about development runs refer to exploratory runs with earlier settings and single seeds; they are not in the repository.
-- The repository holds each reported run's `config.json`, `metrics.npz`, `eval.json` and `eval_episodes.npz`, from which the report is regenerated. Model checkpoints are not included; the `analysis/` scripts and re-evaluation need them, and the job lists reproduce them.
+- The repository holds each reported run's `config.json`, `metrics.npz`, `eval.json` and `eval_episodes.npz`, from which the report is regenerated. Model checkpoints are not in git; the `analysis/` scripts and re-evaluation need them. They are attached to the v1.0.0 release (see the README), and the job lists reproduce them.
 - Two small changes were made after the last review pass and are covered by tests only: the label for words said about the speaker's own goal, and rewriting `config.json` when a run is resumed.

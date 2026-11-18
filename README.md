@@ -79,7 +79,20 @@ bash scripts/evaluate_all.sh main && bash scripts/evaluate_all.sh ablations
 python -m emlang.report --runs runs/main --out report --ablations runs/ablations
 ```
 
-The repository contains each reported run's configuration, per-update metrics, evaluation and sampled test episodes under [`runs/`](runs), so step 3 works on a fresh clone. Model checkpoints are not in the repository.
+The repository contains each reported run's configuration, per-update metrics, evaluation and sampled test episodes under [`runs/`](runs), so step 3 works on a fresh clone.
+
+### Trained models
+
+The trained and initial weights of all 57 reported seeds are attached to the [v1.0.0 release](https://github.com/zichuanxu/emergent-language/releases/tag/v1.0.0) (258 MB in two archives). Extracted at the repository root they land next to each run's results, which lets step 2 and the `analysis/` scripts run without training:
+
+```sh
+gh release download v1.0.0 --repo zichuanxu/emergent-language
+shasum -a 256 -c SHA256SUMS.txt
+tar -xzf emlang-checkpoints-main.tar.gz && tar -xzf emlang-checkpoints-ablations.tar.gz
+
+# re-evaluate one run; the output matches the committed runs/main/1x1x3_comm/s1/eval.json
+python -m emlang.evaluate runs/main/1x1x3_comm/s1 --baseline runs/main/1x1x3_nocomm/s1 --out /tmp/eval_s1
+```
 
 ## Repository layout
 

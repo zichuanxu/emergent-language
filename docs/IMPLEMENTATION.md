@@ -16,7 +16,7 @@ How this repository implements Mordatch & Abbeel, *Emergence of Grounded Composi
 | `analysis/` | Probe of the first implementation's policy; `named_colour_code.py`, `relaxed_vs_exact_words.py` and `timing_code.py`: the tables quoted in `docs/RESULTS.md` §2, §3 and §7 |
 | `experiments/` | Job lists of the reported runs, one line per training process |
 | `scripts/` | `evaluate_all.sh`; `cluster/`: launch, queue, archive and sync scripts for a GPU server with Docker |
-| `runs/` | Per run: configuration, per-update metrics, evaluation, sampled test episodes (checkpoints are not in the repository) |
+| `runs/` | Per run: configuration, per-update metrics, evaluation, sampled test episodes (checkpoints are attached to the v1.0.0 release) |
 | `report/` | Generated tables and Figures 4–7 |
 | `reference/` | The paper's Figure 6 curves, digitized from the PDF |
 
