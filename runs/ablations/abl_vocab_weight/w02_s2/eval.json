@@ -1,0 +1,353 @@
+{
+ "case": "1x1x3",
+ "trials": 10000,
+ "reward": {
+  "communication": {
+   "step_mean": [
+    -0.39538445924241095,
+    -0.40077406691596434,
+    -0.38999485156885755,
+    10000
+   ],
+   "terminal": [
+    -0.12807349990719086,
+    -0.13553371104376472,
+    -0.12061328877061699,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -0.7907689184848219,
+    -0.8015481338319287,
+    -0.7799897031377151,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.2561469998143817,
+    -0.27106742208752943,
+    -0.24122657754123397,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.17739540150831454,
+    0.17228072297362057,
+    0.1825100800430085,
+    10000
+   ]
+  },
+  "communication_relaxed_symbols": {
+   "step_mean": [
+    -0.3111408242373727,
+    -0.3143279150533749,
+    -0.30795373342137056,
+    10000
+   ],
+   "terminal": [
+    -0.008268576928022776,
+    -0.009586442717792427,
+    -0.006950711138253126,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -0.6222816484747454,
+    -0.6286558301067497,
+    -0.6159074668427411,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.016537153856045553,
+    -0.019172885435584854,
+    -0.013901422276506252,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.0657873985574115,
+    0.06476116544343914,
+    0.06681363167138386,
+    10000
+   ]
+  },
+  "messages_silenced": {
+   "step_mean": [
+    -0.8978290660211816,
+    -0.9089920990307706,
+    -0.8866660330115926,
+    10000
+   ],
+   "terminal": [
+    -0.9337643727070354,
+    -0.9499152200454328,
+    -0.9176135253686379,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -1.7956581320423632,
+    -1.8179841980615412,
+    -1.7733320660231853,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -1.8675287454140708,
+    -1.8998304400908657,
+    -1.8352270507372759,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.765022645724658,
+    0.7563354844184081,
+    0.7737098070309077,
+    10000
+   ]
+  },
+  "no_communication": {
+   "step_mean": [
+    -0.5984064125129953,
+    -0.6046963075760599,
+    -0.5921165174499308,
+    10000
+   ],
+   "terminal": [
+    -0.4487635448772984,
+    -0.45495196919400965,
+    -0.4425751205605872,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -1.1968128250259906,
+    -1.2093926151521197,
+    -1.1842330348998615,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.8975270897545968,
+    -0.9099039383880193,
+    -0.8851502411211744,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.6087550449071452,
+    0.6041279896844619,
+    0.6133821001298284,
+    10000
+   ]
+  },
+  "paired_gain_step_mean": [
+   0.2030219532052055,
+   0.19751838829450566,
+   0.20852551811590533,
+   10000
+  ],
+  "paired_gain_terminal": [
+   0.32069004503975157,
+   0.3115431636162441,
+   0.329836926463259,
+   10000
+  ],
+  "paired_loss_when_silenced_step_mean": [
+   -0.5024446064988152,
+   -0.5127386636993956,
+   -0.4921505492982348,
+   10000
+  ]
+ },
+ "centroid": {
+  "initial_centroid_distance": [
+   0.8636118090465665,
+   0.8581863450647502,
+   0.8690372730283829,
+   10000
+  ],
+  "final_centroid_distance": [
+   0.6311958940992132,
+   0.6264498320678099,
+   0.6359419561306164,
+   10000
+  ]
+ },
+ "landmark_choice": {
+  "communication": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.8439,
+    0.8382196782475003,
+    0.8495803217524996,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  },
+  "no_communication": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.333,
+    0.32648695679937767,
+    0.33951304320062237,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  },
+  "messages_silenced": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.33195,
+    0.3252244299393387,
+    0.33867557006066135,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  }
+ },
+ "centroid_no_communication": {
+  "initial_centroid_distance": [
+   0.8636118090465665,
+   0.8581863450647502,
+   0.8690372730283829,
+   10000
+  ],
+  "final_centroid_distance": [
+   0.040950273014139386,
+   0.0407875728996094,
+   0.04111297312866937,
+   10000
+  ]
+ },
+ "symbols": {
+  "active_symbols": [
+   7
+  ],
+  "n_active": 1,
+  "table": {
+   "7": {
+    "label": "RED",
+    "factor": "landmark",
+    "precision": 0.4707205623901582,
+    "recall_directed": 1.0,
+    "prior": 0.3348,
+    "lift": 0.1359205623901582,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.21886666119098663,
+    "stream_share": 0.7112500071525574,
+    "mean_first_step": 0.8680492043495178
+   }
+  },
+  "labels": {
+   "7": "S7"
+  },
+  "decode": {
+   "action": {
+    "accuracy": 1.0,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 1.0,
+    "streams": 10000
+   },
+   "landmark": {
+    "accuracy": 0.48969998955726624,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 0.3359000086784363,
+    "streams": 10000,
+    "accuracy_given_landmark_layout": 0.5745000243186951,
+    "share_decoded_by_single_word_fallback_given_layout": 0.012799999676644802,
+    "accuracy_from_layout_alone": 0.336899995803833
+   },
+   "centroid_rank": {
+    "accuracy": 0.41350001096725464,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 0.33160001039505005,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.33379998803138733
+   },
+   "relative_to_RED": {
+    "accuracy": 0.566100001335144,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 0.33550000190734863,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6636000275611877
+   },
+   "relative_to_GREEN": {
+    "accuracy": 0.4221999943256378,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 0.337799996137619,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6664000153541565
+   },
+   "relative_to_BLUE": {
+    "accuracy": 0.4117000102996826,
+    "share_decoded_by_single_word_fallback": 0.002300000051036477,
+    "majority_baseline": 0.33180001378059387,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6725999712944031
+   }
+  },
+  "order": {},
+  "goto_before_landmark": null,
+  "non_silent_share_by_step": [
+   0.4778999984264374,
+   0.4483500123023987,
+   0.09165000170469284,
+   0.16949999332427979,
+   0.16564999520778656,
+   0.011099999770522118
+  ],
+  "utterances_per_stream": {
+   "directed_goal": [
+    1.36415,
+    1.3493322059936992,
+    1.3789677940063008,
+    20000
+   ],
+   "self_goal": null
+  },
+  "distinct_words_per_stream": {
+   "directed_goal": [
+    0.76165,
+    0.7549809454765604,
+    0.7683190545234397,
+    20000
+   ],
+   "self_goal": null
+  },
+  "symbol_slot_share": [
+   0.772641658782959,
+   0.0,
+   1.6666666851961054e-05,
+   0.00010833333362825215,
+   0.0,
+   8.333333244081587e-05,
+   0.00014166666369419545,
+   0.21886666119098663,
+   0.003449999960139394,
+   8.333333425980527e-06,
+   0.0,
+   9.999999747378752e-05,
+   0.0007416666485369205,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.003441666718572378,
+   0.0,
+   0.00039999998989515007
+  ]
+ },
+ "baseline": "runs/main/1x1x3_nocomm/s2",
+ "baseline_seed": 2,
+ "probe_trials": 4000,
+ "context_usage": {
+  "full": {
+   "share_of_directed_streams_using_word_class": {},
+   "utterances_per_directed_stream": 1.3572499752044678,
+   "reward_step_mean": -0.39144816994667053,
+   "reward_terminal": -0.12929488718509674
+  },
+  "two_landmarks": {
+   "share_of_directed_streams_using_word_class": {},
+   "utterances_per_directed_stream": 1.2174999713897705,
+   "reward_step_mean": -0.4103958010673523,
+   "reward_terminal": -0.20277516543865204
+  },
+  "one_landmark": {
+   "share_of_directed_streams_using_word_class": {},
+   "utterances_per_directed_stream": 0.9856250286102295,
+   "reward_step_mean": -0.24685201048851013,
+   "reward_terminal": -0.008221316151320934
+  }
+ },
+ "seed": 2,
+ "train_reward_last_200_iters": -0.31278204917907715,
+ "train_terminal_last_200_iters": -0.01165749505162239
+}

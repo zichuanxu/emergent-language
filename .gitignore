@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Model checkpoints: not kept in git (see README, "Reproducing the reported runs")
+*.pt
+*.pt.tmp
+
+# Exploratory runs and local-only material
+runs/dev/
+runs/devtest/
+runs/demo/
+*.pdf

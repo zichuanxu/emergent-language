@@ -1,0 +1,8 @@
+default it=100 loss=1.0992 accuracy=0.332 sec=149
+default it=200 loss=1.0992 accuracy=0.322 sec=256
+default it=300 loss=1.0983 accuracy=0.342 sec=384
+default it=400 loss=1.0982 accuracy=0.351 sec=473
+default it=500 loss=1.0986 accuracy=0.343 sec=555
+default it=600 loss=1.0985 accuracy=0.333 sec=610
+default it=700 loss=1.0988 accuracy=0.328 sec=716
+default it=800 loss=1.0979 accuracy=0.338 sec=837

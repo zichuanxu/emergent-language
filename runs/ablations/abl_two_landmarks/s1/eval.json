@@ -1,0 +1,432 @@
+{
+ "case": "1x1x3",
+ "trials": 10000,
+ "reward": {
+  "communication": {
+   "step_mean": [
+    -0.32492013084162025,
+    -0.32852739780311224,
+    -0.32131286388012825,
+    10000
+   ],
+   "terminal": [
+    -0.030053891872889652,
+    -0.032748707778546715,
+    -0.02735907596723259,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -0.6498402616832405,
+    -0.6570547956062245,
+    -0.6426257277602565,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.060107783745779304,
+    -0.06549741555709343,
+    -0.05471815193446518,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.09685511486008763,
+    0.09437433752953137,
+    0.0993358921906439,
+    10000
+   ]
+  },
+  "communication_relaxed_symbols": {
+   "step_mean": [
+    -0.3126486929559149,
+    -0.31586645508427186,
+    -0.30943093082755796,
+    10000
+   ],
+   "terminal": [
+    -0.013248856185964905,
+    -0.014603961780808071,
+    -0.011893750591121738,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -0.6252973859118298,
+    -0.6317329101685437,
+    -0.6188618616551159,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.02649771237192981,
+    -0.029207923561616143,
+    -0.023787501182243476,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.07272194143836387,
+    0.07127857493366968,
+    0.07416530794305806,
+    10000
+   ]
+  },
+  "messages_silenced": {
+   "step_mean": [
+    -0.8575239627871662,
+    -0.868136602726748,
+    -0.8469113228475845,
+    10000
+   ],
+   "terminal": [
+    -0.8843662680254136,
+    -0.8996433692952452,
+    -0.869089166755582,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -1.7150479255743325,
+    -1.736273205453496,
+    -1.693822645695169,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -1.7687325360508273,
+    -1.7992867385904905,
+    -1.738178333511164,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.7511795629955829,
+    0.7426827667177417,
+    0.759676359273424,
+    10000
+   ]
+  },
+  "no_communication": {
+   "step_mean": [
+    -0.5964424866415561,
+    -0.6027429343732154,
+    -0.5901420389098968,
+    10000
+   ],
+   "terminal": [
+    -0.4469231098288918,
+    -0.4530936553375361,
+    -0.44075256432024745,
+    10000
+   ],
+   "step_mean_sum_over_goals": [
+    -1.1928849732831122,
+    -1.2054858687464307,
+    -1.1802840778197936,
+    10000
+   ],
+   "terminal_sum_over_goals": [
+    -0.8938462196577835,
+    -0.9061873106750722,
+    -0.8815051286404949,
+    10000
+   ],
+   "terminal_goal_distance": [
+    0.6075409062271938,
+    0.6029182422842508,
+    0.6121635701701368,
+    10000
+   ]
+  },
+  "paired_gain_step_mean": [
+   0.2715223557364196,
+   0.26710079495458844,
+   0.27594391651825073,
+   10000
+  ],
+  "paired_gain_terminal": [
+   0.41686921781556446,
+   0.4101756114970517,
+   0.42356282413407725,
+   10000
+  ],
+  "paired_loss_when_silenced_step_mean": [
+   -0.5326038320355118,
+   -0.5422291858070697,
+   -0.5229784782639538,
+   10000
+  ]
+ },
+ "centroid": {
+  "initial_centroid_distance": [
+   0.8636118090465665,
+   0.8581863450647502,
+   0.8690372730283829,
+   10000
+  ],
+  "final_centroid_distance": [
+   0.601918382178247,
+   0.5973050810024606,
+   0.6065316833540334,
+   10000
+  ]
+ },
+ "landmark_choice": {
+  "communication": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.88835,
+    0.8832703850250999,
+    0.8934296149749,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  },
+  "no_communication": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.333,
+    0.3264795873337546,
+    0.33952041266624544,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  },
+  "messages_silenced": {
+   "addressee_ends_nearest_to_target_landmark": [
+    0.3337,
+    0.32690593979604204,
+    0.34049406020395795,
+    10000
+   ],
+   "chance": 0.3333333333333333
+  }
+ },
+ "centroid_no_communication": {
+  "initial_centroid_distance": [
+   0.8636118090465665,
+   0.8581863450647502,
+   0.8690372730283829,
+   10000
+  ],
+  "final_centroid_distance": [
+   0.01555733517225599,
+   0.015414641263504478,
+   0.0157000290810075,
+   10000
+  ]
+ },
+ "symbols": {
+  "active_symbols": [
+   2,
+   5,
+   6,
+   11,
+   12,
+   13
+  ],
+  "n_active": 6,
+  "table": {
+   "2": {
+    "label": "NEARER-TO-RED",
+    "factor": "relative_to_RED",
+    "precision": 0.864321608040201,
+    "recall_directed": 0.15518796992481204,
+    "prior": 0.3325,
+    "lift": 0.531821608040201,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.00996666681021452,
+    "stream_share": 0.059700001031160355,
+    "mean_first_step": 0.07370184361934662
+   },
+   "5": {
+    "label": "NEARER-TO-RED",
+    "factor": "relative_to_RED",
+    "precision": 0.7328881469115192,
+    "recall_directed": 0.19804511278195489,
+    "prior": 0.3325,
+    "lift": 0.40038814691151914,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.015458333306014538,
+    "stream_share": 0.08985000103712082,
+    "mean_first_step": 0.05342236906290054
+   },
+   "6": {
+    "label": "NEARER-TO-RED",
+    "factor": "relative_to_RED",
+    "precision": 0.7017441860465117,
+    "recall_directed": 0.18150375939849625,
+    "prior": 0.3325,
+    "lift": 0.36924418604651166,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.014691666699945927,
+    "stream_share": 0.0860000029206276,
+    "mean_first_step": 0.04360464960336685
+   },
+   "11": {
+    "label": "RED",
+    "factor": "landmark",
+    "precision": 0.7915037326697476,
+    "recall_directed": 0.6650238948626045,
+    "prior": 0.3348,
+    "lift": 0.4567037326697476,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.048883333802223206,
+    "stream_share": 0.28130000829696655,
+    "mean_first_step": 0.25346603989601135
+   },
+   "12": {
+    "label": "RED",
+    "factor": "landmark",
+    "precision": 0.8559732043170822,
+    "recall_directed": 0.34348864994026285,
+    "prior": 0.3348,
+    "lift": 0.5211732043170823,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.02305833250284195,
+    "stream_share": 0.1343500018119812,
+    "mean_first_step": 0.16486787796020508
+   },
+   "13": {
+    "label": "NEARER-TO-RED",
+    "factor": "relative_to_RED",
+    "precision": 0.8553191489361702,
+    "recall_directed": 0.18135338345864663,
+    "prior": 0.3325,
+    "lift": 0.5228191489361702,
+    "share_of_its_streams_about_own_goal": 0.0,
+    "slot_share": 0.011791666969656944,
+    "stream_share": 0.07050000131130219,
+    "mean_first_step": 0.06524822860956192
+   }
+  },
+  "labels": {
+   "2": "NEARER-TO-RED",
+   "5": "S5",
+   "6": "S6",
+   "11": "S11",
+   "12": "RED",
+   "13": "NEARER-TO-RED"
+  },
+  "decode": {
+   "action": {
+    "accuracy": 1.0,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 1.0,
+    "streams": 10000
+   },
+   "landmark": {
+    "accuracy": 0.6448000073432922,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 0.3359000086784363,
+    "streams": 10000,
+    "accuracy_given_landmark_layout": 0.8894000053405762,
+    "share_decoded_by_single_word_fallback_given_layout": 0.08179999887943268,
+    "accuracy_from_layout_alone": 0.336899995803833
+   },
+   "centroid_rank": {
+    "accuracy": 0.4643000066280365,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 0.33160001039505005,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.33379998803138733
+   },
+   "relative_to_RED": {
+    "accuracy": 0.82669997215271,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 0.33550000190734863,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6636000275611877
+   },
+   "relative_to_GREEN": {
+    "accuracy": 0.48510000109672546,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 0.337799996137619,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6664000153541565
+   },
+   "relative_to_BLUE": {
+    "accuracy": 0.48579999804496765,
+    "share_decoded_by_single_word_fallback": 0.010400000028312206,
+    "majority_baseline": 0.33180001378059387,
+    "streams": 10000,
+    "accuracy_from_landmark_colour": 0.6725999712944031
+   }
+  },
+  "order": {},
+  "goto_before_landmark": null,
+  "non_silent_share_by_step": [
+   0.6774500012397766,
+   0.028550000861287117,
+   0.023900000378489494,
+   0.04149999842047691,
+   0.06360000371932983,
+   0.007350000087171793
+  ],
+  "utterances_per_stream": {
+   "directed_goal": [
+    0.84235,
+    0.8339824445506822,
+    0.8507175554493179,
+    20000
+   ],
+   "self_goal": null
+  },
+  "distinct_words_per_stream": {
+   "directed_goal": [
+    0.81975,
+    0.8118553574454537,
+    0.8276446425545463,
+    20000
+   ],
+   "self_goal": null
+  },
+  "symbol_slot_share": [
+   0.8596083521842957,
+   2.499999936844688e-05,
+   0.00996666681021452,
+   0.0,
+   0.0027916666585952044,
+   0.015458333306014538,
+   0.014691666699945927,
+   0.0,
+   0.00286666676402092,
+   7.500000356230885e-05,
+   0.0016250000335276127,
+   0.048883333802223206,
+   0.02305833250284195,
+   0.011791666969656944,
+   0.00423333328217268,
+   0.0022083332296460867,
+   0.0,
+   0.0022499999031424522,
+   1.6666666851961054e-05,
+   0.00044999999227002263
+  ]
+ },
+ "baseline": "runs/main/1x1x3_nocomm/s1",
+ "baseline_seed": 1,
+ "probe_trials": 4000,
+ "context_usage": {
+  "full": {
+   "share_of_directed_streams_using_word_class": {
+    "landmark": 0.13249999284744263,
+    "position": 0.13375000655651093
+   },
+   "utterances_per_directed_stream": 0.8367499709129333,
+   "reward_step_mean": -0.3195292353630066,
+   "reward_terminal": -0.02918512374162674
+  },
+  "two_landmarks": {
+   "share_of_directed_streams_using_word_class": {
+    "landmark": 0.13875000178813934,
+    "position": 0.0
+   },
+   "utterances_per_directed_stream": 0.5912500023841858,
+   "reward_step_mean": -0.2826813757419586,
+   "reward_terminal": -0.002463024342432618
+  },
+  "one_landmark": {
+   "share_of_directed_streams_using_word_class": {
+    "landmark": 0.0035000001080334187,
+    "position": 0.0
+   },
+   "utterances_per_directed_stream": 0.2722499966621399,
+   "reward_step_mean": -0.2249791920185089,
+   "reward_terminal": -0.0033804774284362793
+  }
+ },
+ "seed": 1,
+ "train_reward_last_200_iters": -0.31374794244766235,
+ "train_terminal_last_200_iters": -0.017144588753581047
+}

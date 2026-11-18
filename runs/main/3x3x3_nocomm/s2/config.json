@@ -1,0 +1,265 @@
+{
+ "train": {
+  "case": "3x3x3",
+  "env": {
+   "n_agents": 3,
+   "n_landmarks": 3,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "goal_mode": "perm",
+   "oneway_self": 0.0,
+   "close_start": 0.0,
+   "comm": true,
+   "see_agents": false,
+   "see_gaze": false,
+   "blind_recipient": false,
+   "collisions": false,
+   "horizon": 6,
+   "dt": 0.1,
+   "damping": 0.5,
+   "arena": 1.0,
+   "agent_radius": 0.1,
+   "contact_force": 100.0,
+   "contact_margin": 0.02,
+   "close_max": 2.5,
+   "self_actions": []
+  },
+  "policy": {
+   "hidden": 256,
+   "feature": 256,
+   "memory": 32,
+   "vocab": 20,
+   "dropout": 0.1,
+   "temperature": 1.0,
+   "move_scale": 10.0,
+   "action_noise": 0.1,
+   "memory_noise": 0.05,
+   "aux_grounded": true,
+   "logit_scale": 1.0,
+   "goal_gain": 1.0,
+   "init": "he",
+   "straight_through": false
+  },
+  "comm": false,
+  "mixed": true,
+  "two_landmarks": 0.0,
+  "iters": 6000,
+  "batch": 1024,
+  "lr": 0.001,
+  "grad_clip": 5.0,
+  "seed": 2,
+  "w_goal": 1.0,
+  "w_vocab": 0.02,
+  "w_utter": 0.005,
+  "dp_alpha": 1.0,
+  "penalty_start": 300,
+  "penalty_ramp": 500,
+  "aux_frame": "listener"
+ },
+ "contexts": [
+  {
+   "env": {
+    "n_agents": 3,
+    "n_landmarks": 3,
+    "actions": [
+     0,
+     1,
+     2
+    ],
+    "goal_mode": "perm",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.5
+  },
+  {
+   "env": {
+    "n_agents": 3,
+    "n_landmarks": 1,
+    "actions": [
+     0,
+     1,
+     2
+    ],
+    "goal_mode": "perm",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  },
+  {
+   "env": {
+    "n_agents": 3,
+    "n_landmarks": 3,
+    "actions": [
+     0
+    ],
+    "goal_mode": "perm",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  },
+  {
+   "env": {
+    "n_agents": 3,
+    "n_landmarks": 3,
+    "actions": [
+     0,
+     1
+    ],
+    "goal_mode": "perm",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  },
+  {
+   "env": {
+    "n_agents": 2,
+    "n_landmarks": 3,
+    "actions": [
+     0
+    ],
+    "goal_mode": "swap",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  },
+  {
+   "env": {
+    "n_agents": 2,
+    "n_landmarks": 3,
+    "actions": [
+     0,
+     1
+    ],
+    "goal_mode": "swap",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  },
+  {
+   "env": {
+    "n_agents": 2,
+    "n_landmarks": 3,
+    "actions": [
+     0,
+     1,
+     2
+    ],
+    "goal_mode": "swap",
+    "oneway_self": 0.0,
+    "close_start": 0.0,
+    "comm": true,
+    "see_agents": false,
+    "see_gaze": false,
+    "blind_recipient": false,
+    "collisions": false,
+    "horizon": 6,
+    "dt": 0.1,
+    "damping": 0.5,
+    "arena": 1.0,
+    "agent_radius": 0.1,
+    "contact_force": 100.0,
+    "contact_margin": 0.02,
+    "close_max": 2.5,
+    "self_actions": []
+   },
+   "p": 0.08333333333333333
+  }
+ ],
+ "torch": "2.7.0+cu128",
+ "device": "cuda",
+ "replicas_in_process": 3,
+ "tf32_in_policy_network": false
+}

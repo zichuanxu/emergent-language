@@ -1,0 +1,6 @@
+# Non-verbal worlds of Figure 7. Three seeds per line, no utterance channel.
+guiding emlang.train --case guiding --run-dir /proj/results --threads 4 --device cuda --init he --iters 3000 --seed 1,2,3 --names s1,s2,s3
+pointing emlang.train --case pointing --run-dir /proj/results --threads 4 --device cuda --init he --iters 3000 --seed 1,2,3 --names s1,s2,s3
+# Pushing is trained with a softer contact (margin 0.1 instead of 0.02): with stiff contact the sender
+# gets no gradient towards the recipient until it already touches it. See docs/RESULTS.md.
+pushing emlang.train --case pushing --contact-margin 0.1 --run-dir /proj/results --threads 4 --device cuda --init he --iters 3000 --seed 1,2,3 --names s1,s2,s3

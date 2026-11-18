@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emlang"
+version = "1.0.0"
+description = "An independent PyTorch reproduction of 'Emergence of Grounded Compositional Language in Multi-Agent Populations' (Mordatch & Abbeel, AAAI 2018)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["emlang"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

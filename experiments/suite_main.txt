@@ -1,0 +1,9 @@
+# Main suite. One line per container: RUN MODULE ARGS (see scripts/cluster/queue.sh).
+# Every replica (seed) of a line trains in the same process on its own 1,024 worlds per update.
+1x1x3_comm emlang.train --case 1x1x3 --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --aux-frame speaker --w-goal 0.1 --w-vocab 0.05 --w-utter 0.02 --penalty-ramp 1000 --iters 7000 --penalty-start 3000 --seed 1,2,3,4,5 --names s1,s2,s3,s4,s5
+1x2x3_comm emlang.train --case 1x2x3 --mixed --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --aux-frame speaker --w-goal 0.1 --w-vocab 0.05 --w-utter 0.02 --penalty-ramp 1000 --iters 9000 --penalty-start 4000 --seed 1,2,3,4,5 --names s1,s2,s3,s4,s5
+3x3x3_comm emlang.train --case 3x3x3 --mixed --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --aux-frame speaker --w-goal 0.1 --w-vocab 0.05 --w-utter 0.02 --penalty-ramp 1000 --iters 9000 --penalty-start 4000 --seed 1,2,3,4,5 --names s1,s2,s3,s4,s5
+# No-communication baselines: same worlds, initialisation and horizon, no channel and no auxiliary task.
+1x1x3_nocomm emlang.train --case 1x1x3 --no-comm --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --iters 4000 --seed 1,2,3 --names s1,s2,s3
+1x2x3_nocomm emlang.train --case 1x2x3 --mixed --no-comm --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --iters 5000 --seed 1,2,3 --names s1,s2,s3
+3x3x3_nocomm emlang.train --case 3x3x3 --mixed --no-comm --run-dir /proj/results --threads 4 --device cuda --init he --horizon 6 --iters 6000 --seed 1,2,3 --names s1,s2,s3

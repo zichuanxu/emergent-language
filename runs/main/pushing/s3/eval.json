@@ -1,0 +1,137 @@
+{
+ "case": "pushing",
+ "trials": 10000,
+ "directed_goto_episodes": 4945,
+ "ablation": "contact disabled",
+ "reward": {
+  "step_mean": [
+   -0.23583726018909365,
+   -0.2411411710052932,
+   -0.2305333493728941,
+   10000
+  ],
+  "terminal": [
+   -0.11166202242974305,
+   -0.11892712977353852,
+   -0.10439691508594758,
+   10000
+  ],
+  "terminal_directed": [
+   -0.20395978907049028,
+   -0.21818737503944843,
+   -0.18973220310153213,
+   4945
+  ]
+ },
+ "self_goal_final_distance": [
+  0.1295876483018874,
+  0.1277218719829821,
+  0.1314534246207927,
+  5055
+ ],
+ "bystander_initial_distance_to_senders_target_in_self_goal_episodes": [
+  1.0589436320364143,
+  1.0451764556152219,
+  1.0727108084576067,
+  5055
+ ],
+ "bystander_final_distance_to_senders_target_in_self_goal_episodes": [
+  0.31274482188377856,
+  0.3033044141489063,
+  0.3221852296186508,
+  5055
+ ],
+ "bystander_displacement_in_self_goal_episodes": [
+  0.9927093818380279,
+  0.9796117084849963,
+  1.0058070551910596,
+  5055
+ ],
+ "recipient_initial_distance": [
+  1.0370379266313101,
+  1.0231723390183871,
+  1.0509035142442331,
+  4945
+ ],
+ "recipient_final_distance": [
+  0.30487518525490287,
+  0.29558766718618723,
+  0.3141627033236185,
+  4945
+ ],
+ "recipient_final_distance_ablated": [
+  0.7721040908561283,
+  0.7603274622872132,
+  0.7838807194250434,
+  4945
+ ],
+ "paired_increase_when_ablated": [
+  0.46722890559143193,
+  0.4563056093604587,
+  0.47815220182240514,
+  4945
+ ],
+ "sender_gaze_alignment_cosine": [
+  0.11776426966061677,
+  0.10551371199856695,
+  0.13001482732266662,
+  4945
+ ],
+ "sender_gaze_to_target_distance": [
+  2.284861209925313,
+  2.276385807493928,
+  2.293336612356698,
+  4945
+ ],
+ "sender_final_gaze_to_target_distance": [
+  1.9529671952264012,
+  1.9416227460730786,
+  1.9643116443797237,
+  4945
+ ],
+ "sender_initial_distance_to_target": [
+  1.0397325864775508,
+  1.02576304416735,
+  1.0537021287877517,
+  4945
+ ],
+ "sender_final_distance_to_target": [
+  0.13040845233243603,
+  0.12850172350926842,
+  0.13231518115560365,
+  4945
+ ],
+ "sender_closest_distance_to_target": [
+  0.0537191609402481,
+  0.052475781544214575,
+  0.05496254033628162,
+  4945
+ ],
+ "share_of_episodes_with_contact": 0.8277047276496887,
+ "default_contact_force": {
+  "contact_margin_trained": 0.1,
+  "contact_margin_default": 0.02,
+  "recipient_final_distance": [
+   0.637177313121386,
+   0.6241964942639571,
+   0.650158131978815,
+   4945
+  ],
+  "recipient_final_distance_ablated": [
+   0.7721040908561283,
+   0.7603274622872132,
+   0.7838807194250434,
+   4945
+  ],
+  "paired_increase_when_ablated": [
+   0.13492677743811277,
+   0.12804672982875923,
+   0.1418068250474663,
+   4945
+  ],
+  "share_of_episodes_with_contact": 0.7023255825042725
+ },
+ "seed": 3,
+ "train_reward_last_200_iters": -0.21804654598236084,
+ "train_terminal_last_200_iters": -0.08229541778564453
+}
